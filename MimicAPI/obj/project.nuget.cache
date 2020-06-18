@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xwa7LvJAW2ZKlRqw2yZAo0u/rfhqX43WrIzzB6GfBAkmiuZA4M/kpXvfSXzmVEMyhBW75QPVLRVqR9iixJ5LLw==",
+  "dgSpecHash": "zEEBruNlYaQyVPBflqBS0jnAxjC/E86AsgR8rNQ8IJfRyB0QoTe6hjew3jYj4DmdK2mmm1SboM7QmGd48q29qQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Everton Sales\\source\\repos\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
+  "projectFilePath": "C:\\Users\\Everton Sales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Everton Sales\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Everton Sales\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
