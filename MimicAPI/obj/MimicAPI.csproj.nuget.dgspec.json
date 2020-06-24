@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Everton Sales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {}
+    "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Everton Sales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {
+    "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Everton Sales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
         "projectName": "MimicAPI",
-        "projectPath": "C:\\Users\\Everton Sales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
-        "packagesPath": "C:\\Users\\Everton Sales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Everton Sales\\Desktop\\API\\Api-Mimic\\MimicAPI\\obj\\",
+        "projectPath": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
+        "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Everton Sales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +76,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,3 +34,21 @@ C:\Users\Everton Sales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\Mi
 C:\Users\Everton Sales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.dll
 C:\Users\Everton Sales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.pdb
 C:\Users\Everton Sales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.genruntimeconfig.cache
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\MimicAPI.deps.json
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\MimicAPI.runtimeconfig.json
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\MimicAPI.runtimeconfig.dev.json
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\MimicAPI.dll
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\MimicAPI.pdb
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.csprojAssemblyReference.cache
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.csproj.CoreCompileInputs.cache
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.RazorAssemblyInfo.cache
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.RazorAssemblyInfo.cs
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.AssemblyInfoInputs.cache
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.AssemblyInfo.cs
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.RazorTargetAssemblyInfo.cache
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.dll
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.pdb
+C:\Users\esales\Desktop\API\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.genruntimeconfig.cache
