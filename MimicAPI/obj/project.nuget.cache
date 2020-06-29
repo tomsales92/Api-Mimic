@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uPsFl5WGXfZj0R2NCRA4spByDjRP0iHDfj7nwYaZWr2qoDqV1nPWtj/lgDS4GIwXKZdDdN1l236+tIWORZ7+Xw==",
+  "dgSpecHash": "dwVZnTqaAIpintnnroLXHb8/XnpUqt/1Y/aYgavwBcBJvC4DRT7kbSz00iVvABAIgZM7XPRHvOdhulwOjdyASA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
+  "projectFilePath": "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\esales\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

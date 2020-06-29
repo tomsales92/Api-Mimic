@@ -13,6 +13,8 @@ using Microsoft.Extensions.DependencyInjection;
 using MimicAPI.Database;
 using MimicAPI.Repositories;
 using MimicAPI.Repositories.Interfaces;
+using AutoMapper;
+using MimicAPI.Helpers;
 
 namespace MimicAPI
 {
@@ -28,6 +30,14 @@ namespace MimicAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region AutoMapper - Config
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DTOMapperProfile());
+            });
+            IMapper mapper = config.CreateMapper();
+            services.AddSingleton(mapper);
+            #endregion
 
             services.AddDbContext<MimicContext>(opt =>
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {}
+    "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {
+    "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\MimicAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
         "projectName": "MimicAPI",
-        "projectPath": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
+        "projectPath": "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
         "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\esales\\Desktop\\API\\Api-Mimic\\MimicAPI\\obj\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
