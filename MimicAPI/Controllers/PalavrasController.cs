@@ -26,6 +26,7 @@ namespace MimicAPI.Controllers
         }
 
         //APP
+
         [Route("")]
         [HttpGet]
         public ActionResult ObterTodas([FromQuery]PalavraUrlQuery query)
@@ -42,8 +43,8 @@ namespace MimicAPI.Controllers
         }
 
         //Web
-   
-        [HttpGet("{id}", Name = "Obterpalavra")]
+        [Route("{id}")]
+        [HttpGet("{id}", Name = "ObterPalavra")]
         public ActionResult Obter(int id)
         {
            var obj = _repository.obter(id);
@@ -57,22 +58,22 @@ namespace MimicAPI.Controllers
       
 
             palavraDTO.Links.Add(
-                new LinkDTO("self", Url.Link("ObterPalavra", new {id = palavraDTO.Id }), "GET")
+                
+                new LinkDTO("self", Url.Link("ObterPalavra", new { id = palavraDTO.Id }), "GET")
                 );
 
             palavraDTO.Links.Add(
-                new LinkDTO("update", Url.Link("Atualizar", new { id = palavraDTO.Id }), "PUT")
+                new LinkDTO("update", Url.Link("AtualizarPalavra", new { id = palavraDTO.Id }), "PUT")
                 );
 
             palavraDTO.Links.Add(
-                new LinkDTO("delete", Url.Link("Deletar", new { id = palavraDTO.Id }), "DELETE")
+                new LinkDTO("delete", Url.Link("ExcluirPalavra", new { id = palavraDTO.Id }), "DELETE")
                 );
 
             return Ok(palavraDTO);
         }
 
         [Route("")]
-
         [HttpPost]
         public ActionResult Cadastrar([FromBody] Palavra palavra)
         {
@@ -81,7 +82,7 @@ namespace MimicAPI.Controllers
         }
 
        
-        [HttpPut("{id}", Name ="Atualizar")]
+        [HttpPut("{id}", Name = "AtualizarPalavra")]
         public ActionResult Atualizar(int id, [FromBody] Palavra palavra)
         {
 
@@ -96,7 +97,8 @@ namespace MimicAPI.Controllers
             return Ok();
         }
 
-        [HttpGet("{id}", Name = "Deletar")]
+        
+        [HttpDelete("{id}", Name = "ExcluirPalavra")]
         public ActionResult Deletar(int id)
         {
 
