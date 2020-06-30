@@ -88,7 +88,7 @@ namespace MimicAPI.Controllers
 
             PalavraDTO palavraDTO = _mapper.Map<Palavra, PalavraDTO>(obj);
 
-            palavraDTO.Links = new List<LinkDTO>();
+            //palavraDTO.Links = new List<LinkDTO>();
       
 
             palavraDTO.Links.Add(
@@ -112,7 +112,14 @@ namespace MimicAPI.Controllers
         public ActionResult Cadastrar([FromBody] Palavra palavra)
         {
             _repository.Cadastrar(palavra);
-            return Created($"/api/palavras/{palavra.Id}", palavra);
+            PalavraDTO palavraDTO = _mapper.Map<Palavra, PalavraDTO>(palavra);
+
+            palavraDTO.Links.Add(
+
+                new LinkDTO("self", Url.Link("ObterPalavra", new { id = palavraDTO.Id }), "GET")
+                );
+
+            return Created($"/api/palavras/{palavra.Id}", palavraDTO);
         }
 
        
@@ -128,6 +135,14 @@ namespace MimicAPI.Controllers
 
             palavra.Id = id;
             _repository.Atualizar(palavra);
+
+            PalavraDTO palavraDTO = _mapper.Map<Palavra, PalavraDTO>(palavra);
+            palavraDTO.Links.Add(
+                new LinkDTO("self", Url.Link("ObterPalavra", new { id = palavraDTO.Id }), "GET")
+
+               );
+
+
             return Ok();
         }
 
