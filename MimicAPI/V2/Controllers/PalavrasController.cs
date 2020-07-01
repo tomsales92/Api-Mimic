@@ -12,6 +12,11 @@ namespace MimicAPI.V2.Controllers
 
     public class PalavrasController : ControllerBase
     {
+        /// <summary>
+        /// Operação que realiza o cadastro da palavra
+        /// </summary>
+        /// <param name="palavra">Um objeto palavra com o seu ID</param>
+        /// <returns>Um objeto pa</returns>
         [HttpGet("", Name = "ObterTodas")]
 
         public string ObterTodas()

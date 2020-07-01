@@ -69,4 +69,5 @@ C:\Users\esales\Desktop\API MIMIC\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\Mim
 C:\Users\esales\Desktop\API MIMIC\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.pdb
 C:\Users\esales\Desktop\API MIMIC\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.genruntimeconfig.cache
 C:\Users\esales\Desktop\API MIMIC\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.csprojAssemblyReference.cache
+C:\Users\esales\Desktop\API MIMIC\Api-Mimic\MimicAPI\bin\Debug\netcoreapp2.2\MimicAPI.xml
 C:\Users\esales\Desktop\API MIMIC\Api-Mimic\MimicAPI\obj\Debug\netcoreapp2.2\MimicAPI.csproj.CoreCompileInputs.cache
