@@ -2,18 +2,22 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MimicAPI.Helpers;
-using MimicAPI.Models;
-using MimicAPI.Models.DTO;
-using MimicAPI.Repositories.Interfaces;
+using MimicAPI.V1.Models;
+using MimicAPI.V1.Models.DTO;
+using MimicAPI.V1.Repositories.Interfaces;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MimicAPI.Controllers
+namespace MimicAPI.V1.Controllers
 {
-    [Route("api/palavras")]
+    [ApiController]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    //[Route("api/[controller]")]
+    [ApiVersion("1.0", Deprecated = true)]
+    [ApiVersion("1.1")]
     public class PalavrasController : ControllerBase
     {
         private readonly IPalavraRepository _repository;
@@ -27,7 +31,9 @@ namespace MimicAPI.Controllers
 
         //APP
 
-     
+
+        [MapToApiVersion("1.0")]
+        [MapToApiVersion("1.1")]
         [HttpGet("", Name = "ObterTodas")]
         public ActionResult ObterTodas([FromQuery]PalavraUrlQuery query)
         {
@@ -75,9 +81,10 @@ namespace MimicAPI.Controllers
 
             return lista;
         }
-
+        [MapToApiVersion("1.0")]
+        [MapToApiVersion("1.1")]
         //Web
-        [Route("{id}")]
+        //[Route("{id}")]
         [HttpGet("{id}", Name = "ObterPalavra")]
         public ActionResult Obter(int id)
         {
@@ -107,6 +114,8 @@ namespace MimicAPI.Controllers
             return Ok(palavraDTO);
         }
 
+        [MapToApiVersion("1.0")]
+        [MapToApiVersion("1.1")]
         [Route("")]
         [HttpPost]
         public ActionResult Cadastrar([FromBody] Palavra palavra)
@@ -138,7 +147,8 @@ namespace MimicAPI.Controllers
             return Created($"/api/palavras/{palavra.Id}", palavraDTO);
         }
 
-       
+        [MapToApiVersion("1.0")]
+        [MapToApiVersion("1.1")]
         [HttpPut("{id}", Name = "AtualizarPalavra")]
         public ActionResult Atualizar(int id, [FromBody] Palavra palavra)
         {
@@ -177,6 +187,7 @@ namespace MimicAPI.Controllers
         }
 
         
+        [MapToApiVersion("1.1")]
         [HttpDelete("{id}", Name = "ExcluirPalavra")]
         public ActionResult Deletar(int id)
         {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WlO2UCdvrgenLTVgb8A8fQrC3Wuwz0bvA+UJxAyHEZT5DAY151HAl3Rf4oa34hGmKb/q41v+9YTb/TVoTIiHdQ==",
+  "dgSpecHash": "Gn8udd9WZIrKdkQRLpTrDBcGAj1eIUs6t6dfLwSlBIGFgb8hgn+AmVi3UvYTrUOVtftivPkpt6lbcVGNUpzfxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\esales\\Desktop\\API MIMIC\\Api-Mimic\\MimicAPI\\MimicAPI.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,8 @@
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.viewcompilation\\2.2.0\\microsoft.aspnetcore.mvc.razor.viewcompilation.2.2.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.mvc.razorpages\\2.2.0\\microsoft.aspnetcore.mvc.razorpages.2.2.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.mvc.taghelpers\\2.2.0\\microsoft.aspnetcore.mvc.taghelpers.2.2.0.nupkg.sha512",
+    "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\3.1.6\\microsoft.aspnetcore.mvc.versioning.3.1.6.nupkg.sha512",
+    "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\3.2.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.3.2.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.mvc.viewfeatures\\2.2.0\\microsoft.aspnetcore.mvc.viewfeatures.2.2.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\2.2.0\\microsoft.aspnetcore.nodeservices.2.2.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\microsoft.aspnetcore.owin\\2.2.0\\microsoft.aspnetcore.owin.2.2.0.nupkg.sha512",
@@ -209,6 +211,10 @@
     "C:\\Users\\esales\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.osx\\1.1.12\\sqlitepclraw.lib.e_sqlite3.osx.1.1.12.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.v110_xp\\1.1.12\\sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.12.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3.netstandard11\\1.1.12\\sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.12.nupkg.sha512",
+    "C:\\Users\\esales\\.nuget\\packages\\swashbuckle.aspnetcore\\4.0.1\\swashbuckle.aspnetcore.4.0.1.nupkg.sha512",
+    "C:\\Users\\esales\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\4.0.1\\swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512",
+    "C:\\Users\\esales\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\4.0.1\\swashbuckle.aspnetcore.swaggergen.4.0.1.nupkg.sha512",
+    "C:\\Users\\esales\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\4.0.1\\swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\esales\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
